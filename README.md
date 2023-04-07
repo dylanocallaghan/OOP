@@ -6,6 +6,12 @@
 * MyGUI: This is the main class that implements the GUI for a file manager application. This class extents Jframe and implements the ActionListener interface.
 * updateFileListArea: This fuction updates a text area in the GUI with a list of available ".txt" files in the directory.
 * ActionPerformed: These are part of the MyGUI class which do different thing such as track when buttons such as "delete" and "create" are pressed and it returns a funtion.
+## Core Functionaluty:
+* This code is for a GUI-based file manager application in java.
+* It creates a window with a text box, three buttons, and two text areas.
+* The first text area displays the search results, and the second text area displays a list of all available text files that can be searched.
+* The buttons are used to create a new file, search for a word in the available files, and delete a file.
+* The search functionality of this program works by allowing users to input a word to search for and then goes through each file in the current directory that has the .txt extension.
 ## Optional Functionality:
 * For this I made it so the user chas the options between searching using one word or two words/phrases.
 * Other option functionality would be the ability to create files themselves.
